@@ -1,89 +1,48 @@
 
-<div class="foot">
-	<p>© 1997-2017 版权所有</p>
-	<div class="" id="go_top"><a title="返回顶部" href="#"></a></div>
-</div>
+<div id="foot">
+	<div class="foot wmax clearfix">
 
-<div class="float_serv">
-	<ul>
-		<li class="serv_1"><a title="xxxx1" href=""></a></li>
-		<li class="serv_2"><a title="xxxx2" href=""></a></li>
-		<li class="serv_3"><a title="xxxx3" href=""></a></li>
-		<li class="serv_4"><a title="电话：135 0000 0000" href=""></a></li>
-		<li class="serv_5"><a title="xxxx5" href=""></a></li>
-	</ul>
+		<div class="foot_1">
+			<h2 class="logo_f"><img src="/images/logof.png" /></h2>
+			<h3>喇叭传媒网络科技有限公司</h3>
+			<ul>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">新闻资讯</a></li>
+				<li><a href="">媒体营销</a></li>
+				<li><a href="">联系我们</a></li>
+				<li><a href="">会员中心</a></li>
+			</ul>
+		</div>
+		
+		<div class="foot_2">
+			<h3>联系 Contact</h3>
+			<h4><img src="/images/ico_phone.png" />400-0990-989</h4>
+			<p>address：广州市海珠区怡安路151号财京商务公馆515<br/>
+				website：www.labachuanmei.com<br/>
+				E-mail：laba_tw@163.com<br/>
+				telephone：laba_tw@163.com<p>
+		</div>
+		
+		<div class="foot_3">
+			<h3>留言 Massage</h3>
+			<form action="#" method="post">
+				<textarea class="text_1" name="message"></textarea>
+				<input class="sub_1" type="submit" value="提交" />
+			</form>
+		</div>
+		
+		<div class="foot_4">
+			<h3><img src="/images/ico_weixin.png" />关注微信</h3>
+			<div><img src="/images/weixin.png" /></div>		
+		</div>
+		
+	</div>
+	
+	
+	<div class="copyright clr">
+		<p>© 2015 TMTpost 京ICP备xxxxxxxx号-1</p>
+	</div>
+	
 </div>
 
 <?php include("nav.php"); ?>
-
-<script type="text/javascript" src="js/echarts.min.js"></script>
-<script>
-
-		
-/*	右弹购物车滚动条	*/
-var t1=TouchScroll('apDiv1',{vOffset:0,mouseWheel:true,keyPress:false,color:'#999'})
-$(function(){
-	
-	/*	右边会员中心入口弹窗	*/
-	$(".ITuser").click(function(){
-		$(".HYrukou").toggle();
-	});
-	
-	/*	顶部购物车提交	*/
-	countPrice_tcar();
-	$("#button").click(function(){
-		var id = "";
-		if( $("#apDiv1 li input[name=checkItem_tcar]:checked").length>0 ){
-			$("#apDiv1 li input[name=checkItem_tcar]:checked").each(function(){
-				var data_id = $(this).attr("data_id");
-				if( id == "" ){
-					id += data_id;
-				}else{
-					id += "," + data_id;
-				}
-			});
-			$("input[name='order_tcar']").val(id);
-			$("#form_tcar").submit();
-		}else{
-			layer.msg('已选商品不能为空');
-			return false;
-		}
-	});
-	$("#apDiv1 li input[name=checkItem_tcar]").change(function(){
-		countPrice_tcar();
-	});
-	function countPrice_tcar(){			/*	计算总金额	*/
-		var totalprice = 0;
-		$("#apDiv1 li input[name=checkItem_tcar]:checked").each(function(){
-			var price = $(this).attr("data-price");
-			totalprice = ( parseFloat(totalprice) + parseFloat(price) ).toFixed(2);
-		});
-		$("input[name='totalprice_tcar']").val(totalprice);
-		$("#price_tcar").html(totalprice);
-	}
-
-
-
-	/*	返回顶部	*/
-	$(window).scroll(function(){
-		if($(window).scrollTop()>=1){
-			$("#go_top").show();
-		}else{
-			$("#go_top").hide();
-		}
-	}); 
-	$("#go_top a").click(function(){
-		$("body,html").animate({scrollTop:0},500);
-		return false;
-	});
-
-	
-	
-	var winh = $(window).height(),
-		minh = winh - 63 - 50,
-		Invh = $(".Invoice").height();
-//	$(".Invoice").css("min-height",minh);
-	$(".sidebar").css("min-height",minh);
-	
-})
-</script>
