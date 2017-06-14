@@ -22,12 +22,12 @@
 		<ul>
 			<li class="li_m1"><a class="" href="wangluo_media.php"><i></i><strong>网络媒体</strong></a></li>
 			<li class="li_m2"><a href="huwai_media.php"><i></i><strong>户外媒体</strong></a></li>
-			<li class="li_m3"><a href=""><i></i><strong>平面媒体</strong></a></li>
-			<li class="li_m4"><a href=""><i></i><strong>电视媒体</strong></a></li>
-			<li class="li_m5"><a href=""><i></i><strong>广播媒体</strong></a></li>
-			<li class="li_m6"><a href=""><i></i><strong>记者媒体</strong></a></li>
-			<li class="li_m7"><a href=""><i></i><strong>内容代写</strong></a></li>
-			<li class="li_m8"><a href=""><i></i><strong>宣传定制</strong></a></li>
+			<li class="li_m3"><a href="pingmian_media.php"><i></i><strong>平面媒体</strong></a></li>
+			<li class="li_m4"><a href="dianshi_media.php"><i></i><strong>电视媒体</strong></a></li>
+			<li class="li_m5"><a href="guangbo_media.php"><i></i><strong>广播媒体</strong></a></li>
+			<li class="li_m6"><a href="jizhe_media.php"><i></i><strong>记者媒体</strong></a></li>
+			<li class="li_m7"><a href="neirong_daixie.php"><i></i><strong>内容代写</strong></a></li>
+			<li class="li_m8"><a href="xuanchuan_dingzhi.php"><i></i><strong>宣传定制</strong></a></li>
 		</ul>
 	</div>
 
