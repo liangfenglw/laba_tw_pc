@@ -18,6 +18,9 @@
 	<a href="pingmian_media.php" title="5.psd">5.psd - 平面媒体</a>
 	<a href="dianshi_media.php" title="6.psd">6.psd - 电视媒体</a>
 	<a href="guangbo_media.php" title="7.psd">7.psd - 广播媒体</a>
+	<a href="jizhe_media.php" title="8.psd">8.psd - 记者媒体</a>
+	<a href="neirong_daixie.php" title="9.psd">9.psd - 内容代写</a>
+	<a href="xuanchuan_dingzhi.php" title="10.psd">10.psd - 宣传定制</a>
 	<br/>
 
 </div>
