@@ -16,14 +16,16 @@ a:hover{	color:#f00;	}
 body{	min-width:1230px;	font-size:100%;	font-family:"Microsoft YaHei",SimSun,Arial; 	background:#fff;	}
 .head{		height:500px;	background:url(/images/banner3.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
 .body_media .head{		height:560px;	position:relative;	}
-.body_m1 .head{		aheight:500px;	background:url(/images/banner_m1.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
-.body_m2 .head{		aheight:500px;	background:url(/images/banner_m2.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
-.body_m3 .head{		aheight:500px;	background:url(/images/banner_m3.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
-.body_m4 .head{		aheight:500px;	background:url(/images/banner_m4.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
-.body_m5 .head{		aheight:500px;	background:url(/images/banner_m5.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
-.body_m6 .head{		aheight:500px;	background:url(/images/banner_m6.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
-.body_m7 .head{		aheight:500px;	background:url(/images/banner_m7.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
-.body_m8 .head{		aheight:500px;	background:url(/images/banner_m8.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
+.body_m1 .head{		background:url(/images/banner_m1.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
+.body_m2 .head{		background:url(/images/banner_m2.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
+.body_m3 .head{		background:url(/images/banner_m3.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
+.body_m4 .head{		background:url(/images/banner_m4.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
+.body_m5 .head{		background:url(/images/banner_m5.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
+.body_m6 .head{		background:url(/images/banner_m6.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
+.body_m7 .head{		background:url(/images/banner_m7.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
+.body_m8 .head{		background:url(/images/banner_m8.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
+.body_news_list .head{	height:480px;	background:url(/images/banner_news_list.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
+.body_news_view .head{	height:480px;	background:url(/images/banner_news_list.jpg) no-repeat center 0 #56d4bb;	position:relative;	}
 
 .head_t{	height:100px;	position:relative;	z-index:1000;	background:rgba(0,0,0,.5);
 		background:url(/images/bg_menu.png) repeat 0 0;	}
@@ -197,6 +199,7 @@ ul.slide_wh li .wh_a .wh_content{	font-size:14px;	color:#ffffff;	line-height:36p
 .menu_media ul li.li_m8 a.cur i{	background:url(/images/ico_mm8_cur.png) no-repeat center center;	}
 
 .box_m_bg1{	padding:50px 0 55px;	background:#fff;	}
+.box_bg1{	background:#fff;	}
 .box_m_bg2{	padding:50px 0 55px;	background:#FAF9F9;	background:#FBFBFB;	}
 .box_m_bg3{	padding:50px 0 55px;	background:#FCFCFC;	}
 
@@ -499,7 +502,69 @@ div.list_13 ul li strong{	width:120px;	text-align:center;	font-size:18px;	color:
 	font-weight:400;	}
 .list_anli ul li div p{		font-size:14px;	color:#ffffff;	line-height:24px;	text-align:left;	padding:0 22px;	}
 
+body.body_news_list{		}
+.box_n1{	padding:50px 0 0;	}
+.box_n1_m{		}
 
+.list_19{		margin:15px auto 0;	}
+.list_19 ul{		}
+.list_19 ul li{		width:287px;	float:left;		margin:0 0 0 17px;	}
+.list_19 ul li:first-child{		margin:0 0 0 0px;	}
+.list_19 ul li img{	width:287px;	height:180px;		}
+.list_19 ul li h3{	font-size:18px;	color:#1ab394;	line-height:44px;	text-align:center;	margin:12px 0 0;	font-weight:400;	}
+.list_19 ul li h3 a{	color:#1ab394;	}
+.list_19 ul li div{	font-size:14px;	color:#a3b1b4;	line-height:36px;	margin:10px 0 0;	}
+
+.box_n2{	padding:40px 0 65px;	}
+.box_n2_m{	margin:0 15px;	}
+
+.list_news{		margin:23px auto 0;	}
+.list_news ul{		}
+.list_news ul li{		padding:7px 0 0px 0;	border-bottom:1px solid #F5F5F5;	height:168px;	}
+.list_news ul li:first-child{		margin:0 0 0 0px;	}
+.list_news ul li img{	float:left;	width:186px;	height:134px;	margin-top:13px;	padding:0px 0 0;
+	box-shadow:1px 1px 5px rgba(0,0,0,.15);	}
+.list_news ul li h3{	font-size:18px;	color:#1ab394;	line-height:44px;	text-align:left;	margin:0px 0 0 215px;
+	font-weight:400;	display:block;	}
+.list_news ul li h3 a{	color:#1ab394;	}
+.list_news ul li h3 span{	font-size:14px;	color:#1ab394;	line-height:36px;	float:right;	position:relative;	top:2px;
+	font-family:SimHei;	font-weight:400;	}
+.list_news ul li div{	font-size:14px;	color:#a3b1b4;	line-height:24px;	margin:17px 20px 0 215px;	
+	display:block;	height:96px;	overflow:hidden;	}
+
+.pages{		margin:50px auto 0;		}
+.pages ul{		position:relative;	float:left;	left:50%;	}
+.pages ul li{	float:left;	margin:0 0 0 5px;	font-size:14px;	position:relative;	left:-50%;	}
+.pages ul li:first-child{	margin:0 0 0 0px;	}
+.pages ul li a{			float:left;	height:27px;	line-height:27px;	border:1px solid #CECECE;	padding:0 11px;
+	border-radius:5px;	color:##B8A5B8;		}
+.pages ul li.cur a{		background:#1ab394;	color:#fff;	font-weight:400;	}
+.pages ul li.first a{		}
+.pages ul li.prev a{		}
+.pages ul li.next a{		}
+.pages ul li.last a{		}
+
+body.body_news_view{		}
+.place{		font-size:12px;	color:#a3b1b4;	line-height:44px;	margin:5px auto 0;
+	font-size:14px;	}
+.place a{	color:#a3b1b4;		}
+.place a:hover{	color:#1ab394;		}
+.box_nv{		padding:0 0 25px;	}
+	.nv_info{		margin:10px auto 0;	border-bottom:1px solid #ECECEC;	padding:0 0 20px;	}
+	.nv_info h3{	font-size:20px;	color:#1ab394;	line-height:44px;	text-align:center;	letter-spacing:1px;	font-weight:400;	}
+	.nv_info h4{	font-size:12px;	color:#d1d8d9;	line-height:16px;	text-align:center;	font-weight:400;
+		font-size:14px;	}
+	.nv_info h4 span{	margin:0 0 0 5px;	}
+	.nv_info h4 span:first-child{	margin:0 0 0 0px;	}
+	
+	.nv_cont{		padding:17px 20px 10px;	letter-spacing:1px;		line-height:2em;	}
+	.nv_cont h3{	font-size:20px;	color:#343636;	padding:5px 0 5px;	line-height:2em;	}
+	.nv_cont h4{	font-size:16px;	color:#343636;	padding:5px 0 5px;	line-height:2em;	}
+	.nv_cont p{		font-size:14px;	color:#343636;	padding:13px 0 13px;	line-height:26px;	}
+	
+	.nv_prevnext{	font-size:14px;	color:#1ab394;	line-height:44px;	letter-spacing:1px;	padding:0 20px;	margin:17px auto 0;	}
+	.nv_prevnext a{	color:#1ab394;	float:right;	}
+	.nv_prevnext a:first-child{		float:left;		}
 
 
 

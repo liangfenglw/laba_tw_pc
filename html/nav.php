@@ -21,6 +21,8 @@
 	<a href="jizhe_media.php" title="8.psd">8.psd - 记者媒体</a>
 	<a href="neirong_daixie.php" title="9.psd">9.psd - 内容代写</a>
 	<a href="xuanchuan_dingzhi.php" title="10.psd">10.psd - 宣传定制</a>
+	<a href="news_list.php" title="11.psd">11.psd - 新闻资讯</a>
+	<a href="news_view.php" title="12.psd">12.psd - 新闻详情页</a>
 	<br/>
 
 </div>
