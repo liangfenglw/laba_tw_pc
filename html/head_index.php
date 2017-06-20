@@ -9,7 +9,7 @@
 					<li><a href="aboutus.php">关于我们</a></li>
 					<li><a href="news_list.php">新闻资讯</a></li>
 					<li><a href="wangluo_media.php">媒体营销</a></li>
-					<li><a href="">联系我们</a></li>
+					<li><a href="contact_us.php">联系我们</a></li>
 					<li><a href="">会员中心</a></li>
 				</ul>
 			</div>

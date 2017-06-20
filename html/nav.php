@@ -23,6 +23,7 @@
 	<a href="xuanchuan_dingzhi.php" title="10.psd">10.psd - 宣传定制</a>
 	<a href="news_list.php" title="11.psd">11.psd - 新闻资讯</a>
 	<a href="news_view.php" title="12.psd">12.psd - 新闻详情页</a>
+	<a href="contact_us.php" title="13.psd">13.psd - 联系我们</a>
 	<br/>
 
 </div>
