@@ -52,7 +52,7 @@
 		</div>
 		<div class="item_c" style="width:auto;">
 			<span>Detail / 留言内容 *</span>
-			<textarea class="detail" name=""></textarea>
+			<textarea name="detail" class=""></textarea>
 		</div>
 		<input type="submit" class="sub" value="提 交" />
 			

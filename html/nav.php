@@ -24,6 +24,8 @@
 	<a href="news_list.php" title="11.psd">11.psd - 新闻资讯</a>
 	<a href="news_view.php" title="12.psd">12.psd - 新闻详情页</a>
 	<a href="contact_us.php" title="13.psd">13.psd - 联系我们</a>
+	<a href="register.php" title="媒体编辑页.psd">媒体编辑页.psd - 个人信息登记</a>
+	<a href="register2.php" title="媒体编辑页2.psd">媒体编辑页2.psd - 公司信息登记</a>
 	<br/>
 
 </div>
